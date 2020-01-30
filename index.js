@@ -3,7 +3,7 @@
  
 //deli = katzDeli from the index-test.js
 var deli = [];
-  var i = 0;
+var i = 0;
   function takeANumber(deli, name) {
   deli.push(`${name}`);
   return(`Welcome, ${name}. You are number ${++i}.`);
