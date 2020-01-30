@@ -8,7 +8,7 @@ var i = 0;
   deli.push(`${name}`);
   return(`Welcome, ${name}. You are number ${++i}.`);
 }
-
+//original line 9: ${++i} was ${deli.length}
 // interviewer (nicky) asked: how could you change the function so that we add 1 every time the function is run? how do we change the function so that if i'm the 459th customer to run the function, i receive a note that i'm the 459th customer to run the function? Added lines 6,14,15
 
 console.log(takeANumber([], "spiderman"));
