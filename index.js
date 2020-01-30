@@ -41,7 +41,7 @@ var queue = `The line is currently: `;
 // yep, 38-40 work as well for simplifying purposes (checked) but why bother adding so many variables when i'm only using this code and these variables once? **which way is better practice?** probably depends on what i'm coding, eh?
 
 queue = queue + customer;
-// 44 stumped me. what's the difference between 53 and "queue++"
+// 43 stumped me. what's the difference between 53 and "queue++"
   }
 return queue.slice(0, -2);
  }
