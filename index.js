@@ -30,7 +30,7 @@ function nowServing(katzDeliLine) {
 
 // the queue.slice(0, -2) was baffling. searched through array methods for like twenty minutes (learned about different methods, though, which was cool) before realizing slice was what I needed. sigh.
 
-// **questions for this section: is there an easier (simpler, less roundabout) way to write this function? I care more about making my code work than streamlining it, but am I forming any poor habits yet?**
+// **questions for this section: is there an easier (simpler, less roundabout) way to write this function? I care more about making my code work than streamlining it, but am I forming any bad habits yet?**
 
 var queue = `The line is currently: ` 
 function currentLine(katzDeliLine) {
