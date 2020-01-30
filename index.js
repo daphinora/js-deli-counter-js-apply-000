@@ -2,10 +2,10 @@
 // also, pls pls pls use .length in your loops.
  
  
-var katzDeliLine = [];
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(`${name}`);
-  return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
+var deli = [];
+function takeANumber(deli, name) {
+  deli.push(`${name}`);
+  return(`Welcome, ${name}. You are number ${deli.length} in line.`)
 }
 
 // BACK TICKS YOU SILLY GOOSE
