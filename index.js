@@ -5,9 +5,11 @@
 var deli = [];
 function takeANumber(deli, name) {
   deli.push(`${name}`);
-  deli.length++
+  deli.length++;
   return(`Welcome, ${name}. You are number ${deli.length}.`);
 }
+
+console.log(takeANumber([“batman”, “superman”], “spiderman”));
 
 
 // BACK TICKS YOU SILLY GOOSE
