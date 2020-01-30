@@ -6,8 +6,7 @@ var deli = [];
 function takeANumber(deli, name) {
   var i = 0;
   deli.push(`${name}`);
-  deli[i]++;
-  return(`Welcome, ${name}. You are number ${deli.length}.`);
+  return(`Welcome, ${name}. You are number ${i++}.`);
 }
 
 console.log(takeANumber([], "spiderman"));
