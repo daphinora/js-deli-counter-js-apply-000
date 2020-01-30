@@ -4,6 +4,7 @@
 //deli = katzDeli from the index-test.js
 var deli = [];
 function takeANumber(deli, name) {
+  var i = 0;
   deli.push(`${name}`);
   deli.length++;
   return(`Welcome, ${name}. You are number ${deli.length}.`);
