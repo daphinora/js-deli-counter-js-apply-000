@@ -5,7 +5,7 @@
 var deli = [];
 function takeANumber(deli, name) {
   deli.push(`${name}`);
-  return(`Welcome, ${name}. You are number ${deli.length} in line.`)
+  return(`Welcome, ${name}. You are number ${deli.length} in line.`);
 }
 
 // BACK TICKS YOU SILLY GOOSE
@@ -15,13 +15,13 @@ function takeANumber(deli, name) {
 function nowServing(katzDeliLine) {
   var i=0;
   while(i < deli.length) {
-    i++
+    i++;
   }
   
   if(katzDeliLine.length === 0) {
-    return("There is nobody waiting to be served!")
+    return("There is nobody waiting to be served!");
   } else 
-  return(`Currently serving ${katzDeliLine.shift()}.`)
+  return(`Currently serving ${katzDeliLine.shift()}.`);
 }
 // YAY YOU REMEMBERED THE .LENGTH THIS TIME WOOT WOOT
 
@@ -34,15 +34,15 @@ function nowServing(katzDeliLine) {
 
 
 function currentLine(katzDeliLine) {
-var queue = `The line is currently: `
+var queue = `The line is currently: `;
 
   if (katzDeliLine.length === 0) {
-    return 'The line is currently empty.'
+    return 'The line is currently empty.';
   }
  
   for (var i = 0; i < katzDeliLine.length; i++) {
    
-    var customer = `${i + 1}. ${katzDeliLine[i]}, `  
+    var customer = `${i + 1}. ${katzDeliLine[i]}, `;
     
 // that's a lot to write out--could i use variables?
   //  var spot = i + 1
@@ -50,10 +50,10 @@ var queue = `The line is currently: `
   //  var customer = `${spot}. ${person}, `
 // yep, these work as well for simplifying purposes (checked) but why bother adding so many variables when i'm only using this code and these variables once? **which way is better practice?** probably depends on what i'm coding, eh?
 
-queue = queue + customer
+queue = queue + customer;
 // 53 stumped me. how do i run the entire array?? like this, apparently.
   }
-return queue.slice(0, -2)
+return queue.slice(0, -2);
  }
  
 // ngl i didn't know which numbers to slice in 56 so i just picked random numbers until the comma after Ann (-2) was removed and the space before 1 (0) was added. I have no idea how i did this. i think my fingers know something my brain hasn't caught up to yet. catch up, brain. (please)
