@@ -1,7 +1,7 @@
 // okay, you got this! woot woot mcswooty toot toot woot. don't forget to set your variables, set an empty array, and push what you need to push. don't be afraid to get messy with this before you clean it up--just get something working before worrying about how it looks!! 
 // also, pls pls pls use .length in your loops.
  
- 
+ //deli = katzDeliLine from the example test.js
 var deli = [];
 function takeANumber(deli, name) {
   deli.push(`${name}`);
