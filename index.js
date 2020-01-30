@@ -22,7 +22,7 @@ function nowServing(katzDeliLine) {
   return(`Currently serving ${katzDeliLine.shift()}.`);
 }
 
-// **questions for this next funciton: is there an easier (simpler, less roundabout) way to write this function? I care more about making my code work than streamlining it, but am I forming any bad habits yet?**
+
 
 function currentLine(katzDeliLine) {
 var queue = `The line is currently: `;
@@ -33,7 +33,7 @@ var queue = `The line is currently: `;
  
   for (var i = 0; i < katzDeliLine.length; i++) {
    
-    var customer = `${i + 1}. ${katzDeliLine[i]}, `;
+   // **questions for this next funciton: is there an easier (simpler, less roundabout) way to write this function? I care more about making my code work than streamlining it, but am I forming any bad habits yet?** var customer = `${i + 1}. ${katzDeliLine[i]}, `;
     
 // that's a lot to write out--could i use variables?
   //  var spot = i + 1
