@@ -51,7 +51,7 @@ var queue = `The line is currently: `;
 // yep, these work as well for simplifying purposes (checked) but why bother adding so many variables when i'm only using this code and these variables once? **which way is better practice?** probably depends on what i'm coding, eh?
 
 queue = queue + customer;
-newQueue = `The line is currently: ${customer}`
+var newQueue = `The line is currently: ${customer}`
 // 53 stumped me. how do i run the entire array?? like this, apparently.
   }
 return newQueue.slice(0, -2);
