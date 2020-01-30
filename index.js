@@ -38,7 +38,7 @@ var queue = `The line is currently: `;
   //  var spot = i + 1
   //  var person = katzDeliLine[i]
   //  var customer = `${spot}. ${person}, `
-// yep, 39-41 work as well for simplifying purposes (checked) but why bother adding so many variables when i'm only using this code and these variables once? **which way is better practice?** probably depends on what i'm coding, eh?
+// yep, 38-40 work as well for simplifying purposes (checked) but why bother adding so many variables when i'm only using this code and these variables once? **which way is better practice?** probably depends on what i'm coding, eh?
 
 queue = queue + customer;
 // 44 stumped me. what's the difference between 53 and "queue++"
@@ -46,8 +46,8 @@ queue = queue + customer;
 return queue.slice(0, -2);
  }
  
-// ngl i didn't know which numbers to slice in 47 so i just picked random numbers until the comma after Ann (-2) was removed and the space before 1 (0) was added. I think it's to do with where those mistakes are at in the queue but i'm not 100% sure
+// ngl i didn't know which numbers to slice in 46 so i just picked random numbers until the comma after Ann (-2) was removed and the space before 1 (0) was added. I think it's to do with where those mistakes are at in the queue but i'm not 100% sure
 
-//   it works!!!!!!!! woot woot mcswooty toot toot woot\
+//   it works!!!!!!!! woot woot mcswooty toot toot woot
 
 // **questions for the currentLine funciton: is there an easier (simpler, less roundabout) way to write this function? I care more about making my code work than streamlining it, but am I forming any bad habits yet?**
