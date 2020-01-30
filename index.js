@@ -51,9 +51,10 @@ var queue = `The line is currently: `;
 // yep, these work as well for simplifying purposes (checked) but why bother adding so many variables when i'm only using this code and these variables once? **which way is better practice?** probably depends on what i'm coding, eh?
 
 queue = queue + customer;
+newQueue = `The line is currently: ${customer}`
 // 53 stumped me. how do i run the entire array?? like this, apparently.
   }
-return queue.slice(0, -2);
+return newQueue.slice(0, -2);
  }
  
 // ngl i didn't know which numbers to slice in 56 so i just picked random numbers until the comma after Ann (-2) was removed and the space before 1 (0) was added. I have no idea how i did this. i think my fingers know something my brain hasn't caught up to yet. catch up, brain. (please)
