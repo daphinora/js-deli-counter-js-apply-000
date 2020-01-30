@@ -6,11 +6,11 @@ var deli = [];
 function takeANumber(deli, name) {
   var i = 0;
   deli.push(`${name}`);
-  [i]++;
+  deli[i]++;
   return(`Welcome, ${name}. You are number ${deli.length}.`);
 }
 
-
+console.log(takeANumber([], "spiderman"));
 console.log(takeANumber([], "spiderman"));
 
 // BACK TICKS YOU SILLY GOOSE
