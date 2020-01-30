@@ -56,4 +56,4 @@ return queue.slice(0, -2);
 //   it works!!!!!!!! woot woot mcswooty toot toot woot
 
 // **questions for the currentLine funciton: is there an easier (simpler, less roundabout) way to write this function? I care more about making my code work than streamlining it, but am I forming any bad habits yet?**
-INTERVIEWER SAID THEY LIKED THE WAY I CODED THE PROBLEM AHHHHH
+// INTERVIEWER SAID THEY LIKED THE WAY I CODED THE PROBLEM AHHHHH
