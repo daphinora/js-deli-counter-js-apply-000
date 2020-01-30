@@ -9,7 +9,7 @@ function takeANumber(deli, name) {
   return(`Welcome, ${name}. You are number ${deli.length}.`);
 }
 
-console.log(takeANumber([“batman”, “superman”], “spiderman”));
+console.log(takeANumber(["batman", "superman"], "spiderman"));
 
 
 // BACK TICKS YOU SILLY GOOSE
