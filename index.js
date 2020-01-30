@@ -26,7 +26,7 @@ function nowServing(katzDeliLine) {
 // YAY YOU REMEMBERED THE .LENGTH THIS TIME WOOT WOOT
 
 
-// post-working note: you struggled the most with currentLine. the others made sense--what problems did you have in the currentLine function? variables were difficult to understand. you weren't sure whether to treat this function with a for loop or a while loop, but you decided to choose a for loop for consistency. The base if statement was easy--you'd done that a million times already, so noting those lines (28-30) went quickly. got that out of the way (despite initially forgetting to put the .length again, silly goose--didn't we just fix this problem??)
+// post-working note: you struggled the most with currentLine. the others made sense--what problems did you have in the currentLine function? variables were difficult to understand. you weren't sure whether to treat this function with a for loop or a while loop, but you decided to choose a for loop for consistency. The base 'if' statement was easy--you'd done that a million times already, so noting those lines (28-30) went quickly. got that out of the way (despite initially forgetting to put the .length again, silly goose--didn't we just fix this problem??)
 
 // the queue.slice(0, -2) was baffling. searched through array methods for like twenty minutes (learned about different methods, though, which was cool) before realizing slice was what I needed. sigh.
 
