@@ -32,9 +32,9 @@ function nowServing(katzDeliLine) {
 
 // **questions for this section: is there an easier (simpler, less roundabout) way to write this function? I care more about making my code work than streamlining it, but am I forming any bad habits yet?**
 
-var queue = `The line is currently: ` 
+
 function currentLine(katzDeliLine) {
-  
+var queue = `The line is currently: `   
   if (katzDeliLine.length === 0) {
     return 'The line is currently empty.'
   }
