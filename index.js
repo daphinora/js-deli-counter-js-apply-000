@@ -6,7 +6,7 @@ var deli = [];
 function takeANumber(deli, name) {
   var i = 0;
   deli.push(`${name}`);
-  deli.length++;
+  deli[i]++;
   return(`Welcome, ${name}. You are number ${deli.length}.`);
 }
 
